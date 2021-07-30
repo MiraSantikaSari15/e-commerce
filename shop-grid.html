@@ -7,7 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Ogani | Template</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&amp;display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css%2bfont-awesome.min.css%2belegant-icons.css%2bnice-select.css%2bjquery-ui.min.css%2bowl.carousel.min.css%2bslicknav.min.css%2bstyle.css.pagespeed.cc.4YNTZ7I7f2.css" type="text/css" />
 </head>
@@ -93,7 +97,16 @@
 								</ul>
 							</div> -->
 							<div class="header__top__right__auth">
-								<a href="#"><i class="fa fa-user"></i> Jhon Doe</a>
+								<div class="dropdown show">
+									<a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fa fa-user"></i> Jhon Doe
+									</a>
+
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+										<a class="dropdown-item" href="#">Profile</a>
+										<a class="dropdown-item" href="#">Logout</a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -648,23 +661,15 @@
 
 
 	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap.min.js%2bjquery.nice-select.min.js.pagespeed.jc.08NHUfMhux.js"></script><script>eval(mod_pagespeed_ND6iIrfFHB);</script>
-	<script>eval(mod_pagespeed_2CR7bSFHcL);</script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js%2bjquery.nice-select.min.js.pagespeed.jc.08NHUfMhux.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
 	<script src="js/jquery.slicknav.js"></script>
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/main.js"></script>
-
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-23581568-13');
-	</script>
-	<script defer src="../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"675c8daf3b6b0cc3","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.7.0","si":10}'></script>
 </body>
 
 </html>
